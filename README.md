@@ -11,7 +11,9 @@ node --test
 node demo.mjs
 ```
 
-The demo generates a [one-day report](examples/day-report.md) and a [one-week report](examples/week-report.md), plus JSON input/results. All customers, jobs, locations and drive times are **fictional**. They exercise the algorithm; they are not real-world performance or routing-provider evidence.
+The default demo generates a [one-day report](examples/day-report.md) and a [one-week report](examples/week-report.md), plus JSON input/results. Their customers, jobs, locations and drive times are **fictional**. They exercise the algorithm; they are not real-world performance or routing-provider evidence.
+
+A separate [road integration report](examples/road-report.md) uses a real Geoapify response retrieved on 16 October 2026 between five public coordinates in central Berlin. Its 18 jobs, 3 crews and 200 customers remain fictional. [Provenance and matrix](examples/road-provenance.json) and the [schedule CSV](examples/road-schedule.csv) are provided. One 5×5 matrix request was made; no customer data, payment, or outreach was sent. This validates the road-time adapter, not a hosted agent or live customer service.
 
 ## Implemented
 
@@ -40,12 +42,14 @@ The matrix is directional, in minutes, indexed by location keys. Missing/unreach
 
 ## Remaining before a live service
 
-1. Address geocoding with ambiguity review and routing integration tested against real provider responses; no silent straight-line substitute.
+1. Address geocoding with ambiguity review and larger routing batches. The small directional matrix adapter now has a real-provider smoke test; there is no silent straight-line substitute.
 2. Durable assignment polling, attachment import, client messages and formal submissions; restart/revision/timeout handling and isolated per-buyer data.
 3. Always-available hosting validation, usage caps and quota accounting, privacy/retention configuration, and a clear outage policy.
 4. Publish a priced Automation listing only once the worker and map integration pass an end-to-end acceptance run. The current code is not that acceptance run.
 
-Geoapify is the proposed production map provider. Its [pricing page](https://www.geoapify.com/pricing/) states a free commercial-production tier with 3,000 credits/day and no credit card. Usage must be capped below that allowance; overage is not authorized. [Matrix documentation](https://apidocs.geoapify.com/docs/route-matrix/) specifies directional road times, 1,000 cells per ordinary request, and credit calculations. An account/API key has not been provisioned or used. Names, contact details and service histories would remain in the worker; only necessary addresses/coordinates would go to the map provider with the buyer's disclosed agreement. Provider attribution must accompany resulting reports.
+Geoapify is the proposed production map provider. Its [pricing page](https://www.geoapify.com/pricing/) states a free commercial-production tier with 3,000 credits/day and no credit card. Usage must be capped below that allowance; overage is not authorized. [Matrix documentation](https://apidocs.geoapify.com/docs/route-matrix/) specifies directional road times, 1,000 cells per ordinary request, and credit calculations. A Free project has now been provisioned and used for the small road smoke test; credentials are outside this repository. Names, contact details and service histories would remain in the worker; only necessary addresses/coordinates would go to the map provider with the buyer's disclosed agreement. Provider attribution accompanies the road report.
+
+`road-demo.mjs` requires `GEOAPIFY_API_KEY` only for its first request, caches the result under ignored `state/`, locks concurrent runs, and allows at most one uncached 5×5 request per UTC day, including failures. It reserves 500 credits conservatively for that small local-city request; the baseline published cost is 25. Re-running from cache sends no request. This command-specific guard is not yet a production-wide quota ledger. Do not use the adapter directly as an unmetered public endpoint.
 
 Hosting is not provisioned. A small Node worker can run with outbound-only polling on a persistent host, per the [Agent Market self-hosted guide](https://docs.market.near.ai/guides/self-hosted-agents.md). This repository does not claim 24/7 availability, start a background process, install a service, or modify the computer's power settings.
 

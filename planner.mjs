@@ -215,6 +215,7 @@ const cell=x=>String(x??'').replaceAll('|','\\|').replaceAll('\n',' ');
 export function markdownReport(p) {
   const lines=['# Field service schedule', '', `Routing: **${cell(p.routing.provider)}** (${p.routing.kind}).`,
     p.routing.kind==='synthetic'?'**DEMO ONLY: synthetic travel times. This is not a road-routing or live-agent acceptance result.**':'Road times are provider estimates, not a live traffic guarantee.',
+    ...(p.routing.kind==='road'?[`Retrieved: ${cell(p.routing.retrievedAt ?? 'not supplied')}. Traffic model: ${cell(p.routing.traffic ?? 'not supplied')}.`,p.routing.attribution ?? '']:[]),
     '',p.comparison,'',`Assigned ${p.assignedRows.length}; unassigned ${p.unassigned.length}. Total drive time including return legs: ${p.driveMinutes.toFixed(1)} minutes.`];
   for(const r of p.routes) {
     lines.push('',`## ${cell(r.crew.date)} — ${cell(r.crew.id)}`,'','| Job | Location | Start | End | Drive min |','|---|---|---:|---:|---:|');

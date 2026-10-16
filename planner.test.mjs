@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {plan,evaluateRoute,matrixTravel,normalizeCustomers,dueEvidence,isoDay,formatTime} from './planner.mjs';
 import {fixture} from './fixtures.mjs';
+import {readFileSync} from 'node:fs';
 
 function audit(input,p) {
   const travel=matrixTravel(input.matrix), seen=[];
@@ -50,3 +51,4 @@ test('backfill cannot delay a fixed appointment',()=>{const x={crews:[{id:'crew'
 test('finite bounded sizes and unique crew days are enforced',()=>{const x=fixture();x.crews.push(x.crews[0]);assert.throws(()=>plan(x),/Duplicate crew/);assert.throws(()=>plan({...fixture(),minimumGapMinutes:-1}),/positive/);assert.throws(()=>plan({...fixture(),routing:null}),/provenance/);});
 test('deterministic randomized cases preserve coverage, shifts, skills and all gap constraints',()=>{for(let seed=0;seed<40;seed++){const x=fixture({seed});x.jobs.forEach((j,i)=>{if(i%3===0)j.windowEnd=600;if(i%5===0)j.windowStart=540;});audit(x,plan(x));}});
 test('display rounds fractional minutes without invalid :60',()=>{assert.equal(formatTime(539.9),'09:00');assert.equal(formatTime(1440),'24:00');});
+test('saved real-provider matrix passes the same independent schedule audit, without network calls',()=>{const input=JSON.parse(readFileSync(new URL('./examples/road-input.json',import.meta.url),'utf8'));assert.equal(input.routing.kind,'road');const p=plan(input);audit(input,p);assert.equal(p.assignedRows.length,18);assert.ok(p.gaps.some(g=>g.suggestions.length));});

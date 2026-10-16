@@ -1,0 +1,69 @@
+{
+  "points": {
+    "A": [
+      13.3777,
+      52.5163
+    ],
+    "B": [
+      13.3695,
+      52.5251
+    ],
+    "C": [
+      13.4132,
+      52.5219
+    ],
+    "D": [
+      13.3762,
+      52.5096
+    ],
+    "E": [
+      13.3762,
+      52.5186
+    ]
+  },
+  "routing": {
+    "kind": "road",
+    "provider": "Geoapify Route Matrix / OpenStreetMap",
+    "traffic": "approximated (not live traffic)",
+    "retrievedAt": "2026-10-16T07:03:35.215Z",
+    "units": "minutes; each leg rounded up",
+    "attribution": "Powered by Geoapify (https://www.geoapify.com/); © OpenStreetMap contributors (https://www.openstreetmap.org/copyright)"
+  },
+  "matrix": {
+    "A": {
+      "A": 0,
+      "B": 15,
+      "C": 11,
+      "D": 9,
+      "E": 10
+    },
+    "B": {
+      "A": 15,
+      "B": 0,
+      "C": 22,
+      "D": 13,
+      "E": 14
+    },
+    "C": {
+      "A": 13,
+      "B": 24,
+      "C": 0,
+      "D": 18,
+      "E": 19
+    },
+    "D": {
+      "A": 11,
+      "B": 9,
+      "C": 17,
+      "D": 0,
+      "E": 12
+    },
+    "E": {
+      "A": 1,
+      "B": 15,
+      "C": 17,
+      "D": 9,
+      "E": 0
+    }
+  }
+}
