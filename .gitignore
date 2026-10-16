@@ -1,0 +1,6 @@
+node_modules/
+.env*
+*.dpapi
+private/
+state/
+test-output.txt
