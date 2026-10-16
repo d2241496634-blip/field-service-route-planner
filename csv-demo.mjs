@@ -1,0 +1,16 @@
+import {mkdir,writeFile,readFile} from 'node:fs/promises';
+import {fixture} from './fixtures.mjs';
+import {csvCell} from './csv.mjs';
+import {formatTime} from './planner.mjs';
+const points=JSON.parse(await readFile(new URL('./examples/road-provenance.json',import.meta.url),'utf8')).points;
+const keys=Object.keys(points),target=new URL('./examples/csv-input/',import.meta.url);
+await mkdir(target,{recursive:true});
+const input=fixture(),encode=(headers,rows)=>[headers,...rows].map(r=>r.map(csvCell).join(',')).join('\r\n')+'\r\n';
+const jobs=input.jobs.map((j,i)=>[j.id,j.date,`Public coordinate ${keys[i%keys.length]} (fictional job)`,...points[keys[i%keys.length]],j.duration,formatTime(j.windowStart),formatTime(j.windowEnd),j.skills.join(';')]);
+const crews=input.crews.map((c,i)=>[c.id,c.date,i===0?'Adlon Kempinski, Unter den Linden 77, 10117 Berlin, Germany':'Public coordinate A (fictional crew)',...(i===0?['','']:points.A),formatTime(c.start),formatTime(c.end),c.skills.join(';')]);
+const customers=input.customers.map((c,i)=>[c.id,c.name,`Public coordinate ${keys[i%keys.length]} (fictional customer)`,...points[keys[i%keys.length]],c.duration,c.skills.join(';'),c.doNotContact,c.optOut,c.lastServiceDate,c.intervalDays??'',c.service]);
+await writeFile(new URL('request.json',target),JSON.stringify({startDate:'2026-10-19',endDate:'2026-10-19',timezone:'Europe/Berlin',countryCode:'de',mapProcessingConsent:true,minimumGapMinutes:30},null,2));
+await writeFile(new URL('jobs.csv',target),encode(['id','date','address','longitude','latitude','duration','windowStart','windowEnd','skills'],jobs));
+await writeFile(new URL('crews.csv',target),encode(['id','date','address','longitude','latitude','start','end','skills'],crews));
+await writeFile(new URL('customers.csv',target),encode(['id','name','address','longitude','latitude','duration','skills','doNotContact','optOut','lastServiceDate','intervalDays','service'],customers));
+console.log('Created public-coordinate CSV examples with fictional jobs/customers and one public-building address. No network calls.');

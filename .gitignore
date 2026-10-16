@@ -4,3 +4,4 @@ node_modules/
 private/
 state/
 test-output.txt
+.test-state-*/

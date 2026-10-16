@@ -1,0 +1,62 @@
+[
+  {
+    "matrix": {
+      "L77a4c998fd84d9fa8c86": {
+        "L77a4c998fd84d9fa8c86": 0,
+        "Le01a24d6b0c253ab091d": 7,
+        "Lacd0071b8768af1373ca": 12,
+        "Labe53b50ad7b68473a39": 12,
+        "L6d7dbcdd8fae81687c79": 6,
+        "Ld7e4ceea6e9dd754d525": 8
+      },
+      "Le01a24d6b0c253ab091d": {
+        "L77a4c998fd84d9fa8c86": 2,
+        "Le01a24d6b0c253ab091d": 0,
+        "Lacd0071b8768af1373ca": 15,
+        "Labe53b50ad7b68473a39": 11,
+        "L6d7dbcdd8fae81687c79": 9,
+        "Ld7e4ceea6e9dd754d525": 10
+      },
+      "Lacd0071b8768af1373ca": {
+        "L77a4c998fd84d9fa8c86": 14,
+        "Le01a24d6b0c253ab091d": 15,
+        "Lacd0071b8768af1373ca": 0,
+        "Labe53b50ad7b68473a39": 22,
+        "L6d7dbcdd8fae81687c79": 13,
+        "Ld7e4ceea6e9dd754d525": 14
+      },
+      "Labe53b50ad7b68473a39": {
+        "L77a4c998fd84d9fa8c86": 14,
+        "Le01a24d6b0c253ab091d": 13,
+        "Lacd0071b8768af1373ca": 24,
+        "Labe53b50ad7b68473a39": 0,
+        "L6d7dbcdd8fae81687c79": 18,
+        "Ld7e4ceea6e9dd754d525": 19
+      },
+      "L6d7dbcdd8fae81687c79": {
+        "L77a4c998fd84d9fa8c86": 7,
+        "Le01a24d6b0c253ab091d": 11,
+        "Lacd0071b8768af1373ca": 9,
+        "Labe53b50ad7b68473a39": 17,
+        "L6d7dbcdd8fae81687c79": 0,
+        "Ld7e4ceea6e9dd754d525": 12
+      },
+      "Ld7e4ceea6e9dd754d525": {
+        "L77a4c998fd84d9fa8c86": 8,
+        "Le01a24d6b0c253ab091d": 1,
+        "Lacd0071b8768af1373ca": 15,
+        "Labe53b50ad7b68473a39": 17,
+        "L6d7dbcdd8fae81687c79": 9,
+        "Ld7e4ceea6e9dd754d525": 0
+      }
+    },
+    "routing": {
+      "kind": "road",
+      "provider": "Geoapify Route Matrix / OpenStreetMap",
+      "traffic": "approximated (not live traffic)",
+      "retrievedAt": "2026-10-16T07:34:25.526Z",
+      "units": "minutes; each leg rounded up",
+      "attribution": "Powered by [Geoapify](https://www.geoapify.com/); © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright)"
+    }
+  }
+]

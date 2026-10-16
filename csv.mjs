@@ -1,5 +1,6 @@
 /** Small RFC-4180-style CSV reader. No expression evaluation or remote loading. */
-export function parseCsv(text) {
+export function parseCsv(text,{withHeaders=false}={}) {
+  if(typeof text!=='string')throw new Error('CSV must be UTF-8 text');
   if(Buffer.byteLength(text,'utf8')>2*1024*1024) throw new Error('CSV exceeds 2 MiB');
   text=text.replace(/^\uFEFF/,'');
   const records=[];let record=[],field='',quoted=false,closed=false;
@@ -17,7 +18,8 @@ export function parseCsv(text) {
   if(field!==''||record.length||closed)endRow();
   const headers=records.shift()?.map(x=>x.trim());
   if(!headers?.length||headers.some(x=>!x)||new Set(headers).size!==headers.length)throw new Error('CSV headers must be non-empty and unique');
-  return records.map((r,i)=>{if(r.length!==headers.length)throw new Error(`CSV row ${i+2} has the wrong column count`);return Object.fromEntries(headers.map((h,j)=>[h,r[j].trim()]));});
+  const rows=records.map((r,i)=>{if(r.length!==headers.length)throw new Error(`CSV row ${i+2} has the wrong column count`);return Object.fromEntries(headers.map((h,j)=>[h,r[j].trim()]));});
+  return withHeaders?{headers,rows}:rows;
 }
 export function minute(s) {
   if(!/^\d{2}:\d{2}$/.test(s??''))return NaN;

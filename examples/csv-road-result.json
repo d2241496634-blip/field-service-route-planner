@@ -1,0 +1,1518 @@
+{
+  "result": {
+    "routes": [
+      {
+        "crew": {
+          "id": "crew-1",
+          "date": "2026-10-19",
+          "address": "Adlon Kempinski, Unter den Linden 77, 10117 Berlin, Germany",
+          "longitude": "",
+          "latitude": "",
+          "start": 480,
+          "end": 1020,
+          "skills": [
+            "general",
+            "specialist"
+          ],
+          "location": "L77a4c998fd84d9fa8c86",
+          "endLocation": "L77a4c998fd84d9fa8c86"
+        },
+        "jobs": [
+          {
+            "id": "job-0-13",
+            "date": "2026-10-19",
+            "address": "Public coordinate D (fictional job)",
+            "longitude": "13.3762",
+            "latitude": "52.5096",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "L6d7dbcdd8fae81687c79",
+            "row": 13
+          },
+          {
+            "id": "job-0-8",
+            "date": "2026-10-19",
+            "address": "Public coordinate D (fictional job)",
+            "longitude": "13.3762",
+            "latitude": "52.5096",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "L6d7dbcdd8fae81687c79",
+            "row": 8
+          },
+          {
+            "id": "job-0-3",
+            "date": "2026-10-19",
+            "address": "Public coordinate D (fictional job)",
+            "longitude": "13.3762",
+            "latitude": "52.5096",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "L6d7dbcdd8fae81687c79",
+            "row": 3
+          },
+          {
+            "id": "job-0-16",
+            "date": "2026-10-19",
+            "address": "Public coordinate B (fictional job)",
+            "longitude": "13.3695",
+            "latitude": "52.5251",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Lacd0071b8768af1373ca",
+            "row": 16
+          },
+          {
+            "id": "job-0-11",
+            "date": "2026-10-19",
+            "address": "Public coordinate B (fictional job)",
+            "longitude": "13.3695",
+            "latitude": "52.5251",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Lacd0071b8768af1373ca",
+            "row": 11
+          },
+          {
+            "id": "job-0-6",
+            "date": "2026-10-19",
+            "address": "Public coordinate B (fictional job)",
+            "longitude": "13.3695",
+            "latitude": "52.5251",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Lacd0071b8768af1373ca",
+            "row": 6
+          },
+          {
+            "id": "job-0-1",
+            "date": "2026-10-19",
+            "address": "Public coordinate B (fictional job)",
+            "longitude": "13.3695",
+            "latitude": "52.5251",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Lacd0071b8768af1373ca",
+            "row": 1
+          },
+          {
+            "id": "job-0-17",
+            "date": "2026-10-19",
+            "address": "Public coordinate C (fictional job)",
+            "longitude": "13.4132",
+            "latitude": "52.5219",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Labe53b50ad7b68473a39",
+            "row": 17
+          },
+          {
+            "id": "job-0-12",
+            "date": "2026-10-19",
+            "address": "Public coordinate C (fictional job)",
+            "longitude": "13.4132",
+            "latitude": "52.5219",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Labe53b50ad7b68473a39",
+            "row": 12
+          },
+          {
+            "id": "job-0-7",
+            "date": "2026-10-19",
+            "address": "Public coordinate C (fictional job)",
+            "longitude": "13.4132",
+            "latitude": "52.5219",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Labe53b50ad7b68473a39",
+            "row": 7
+          },
+          {
+            "id": "job-0-2",
+            "date": "2026-10-19",
+            "address": "Public coordinate C (fictional job)",
+            "longitude": "13.4132",
+            "latitude": "52.5219",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Labe53b50ad7b68473a39",
+            "row": 2
+          },
+          {
+            "id": "job-0-14",
+            "date": "2026-10-19",
+            "address": "Public coordinate E (fictional job)",
+            "longitude": "13.3762",
+            "latitude": "52.5186",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Ld7e4ceea6e9dd754d525",
+            "row": 14
+          },
+          {
+            "id": "job-0-9",
+            "date": "2026-10-19",
+            "address": "Public coordinate E (fictional job)",
+            "longitude": "13.3762",
+            "latitude": "52.5186",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "specialist"
+            ],
+            "location": "Ld7e4ceea6e9dd754d525",
+            "row": 9
+          },
+          {
+            "id": "job-0-4",
+            "date": "2026-10-19",
+            "address": "Public coordinate E (fictional job)",
+            "longitude": "13.3762",
+            "latitude": "52.5186",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Ld7e4ceea6e9dd754d525",
+            "row": 4
+          },
+          {
+            "id": "job-0-0",
+            "date": "2026-10-19",
+            "address": "Public coordinate A (fictional job)",
+            "longitude": "13.3777",
+            "latitude": "52.5163",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "specialist"
+            ],
+            "location": "Le01a24d6b0c253ab091d",
+            "row": 0
+          }
+        ],
+        "stops": [
+          {
+            "id": "job-0-13",
+            "date": "2026-10-19",
+            "address": "Public coordinate D (fictional job)",
+            "longitude": "13.3762",
+            "latitude": "52.5096",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "L6d7dbcdd8fae81687c79",
+            "row": 13,
+            "arrival": 486,
+            "start": 486,
+            "end": 516,
+            "driveMinutes": 6
+          },
+          {
+            "id": "job-0-8",
+            "date": "2026-10-19",
+            "address": "Public coordinate D (fictional job)",
+            "longitude": "13.3762",
+            "latitude": "52.5096",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "L6d7dbcdd8fae81687c79",
+            "row": 8,
+            "arrival": 516,
+            "start": 516,
+            "end": 546,
+            "driveMinutes": 0
+          },
+          {
+            "id": "job-0-3",
+            "date": "2026-10-19",
+            "address": "Public coordinate D (fictional job)",
+            "longitude": "13.3762",
+            "latitude": "52.5096",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "L6d7dbcdd8fae81687c79",
+            "row": 3,
+            "arrival": 546,
+            "start": 546,
+            "end": 576,
+            "driveMinutes": 0
+          },
+          {
+            "id": "job-0-16",
+            "date": "2026-10-19",
+            "address": "Public coordinate B (fictional job)",
+            "longitude": "13.3695",
+            "latitude": "52.5251",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Lacd0071b8768af1373ca",
+            "row": 16,
+            "arrival": 585,
+            "start": 585,
+            "end": 615,
+            "driveMinutes": 9
+          },
+          {
+            "id": "job-0-11",
+            "date": "2026-10-19",
+            "address": "Public coordinate B (fictional job)",
+            "longitude": "13.3695",
+            "latitude": "52.5251",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Lacd0071b8768af1373ca",
+            "row": 11,
+            "arrival": 615,
+            "start": 615,
+            "end": 645,
+            "driveMinutes": 0
+          },
+          {
+            "id": "job-0-6",
+            "date": "2026-10-19",
+            "address": "Public coordinate B (fictional job)",
+            "longitude": "13.3695",
+            "latitude": "52.5251",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Lacd0071b8768af1373ca",
+            "row": 6,
+            "arrival": 645,
+            "start": 645,
+            "end": 675,
+            "driveMinutes": 0
+          },
+          {
+            "id": "job-0-1",
+            "date": "2026-10-19",
+            "address": "Public coordinate B (fictional job)",
+            "longitude": "13.3695",
+            "latitude": "52.5251",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Lacd0071b8768af1373ca",
+            "row": 1,
+            "arrival": 675,
+            "start": 675,
+            "end": 705,
+            "driveMinutes": 0
+          },
+          {
+            "id": "job-0-17",
+            "date": "2026-10-19",
+            "address": "Public coordinate C (fictional job)",
+            "longitude": "13.4132",
+            "latitude": "52.5219",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Labe53b50ad7b68473a39",
+            "row": 17,
+            "arrival": 727,
+            "start": 727,
+            "end": 757,
+            "driveMinutes": 22
+          },
+          {
+            "id": "job-0-12",
+            "date": "2026-10-19",
+            "address": "Public coordinate C (fictional job)",
+            "longitude": "13.4132",
+            "latitude": "52.5219",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Labe53b50ad7b68473a39",
+            "row": 12,
+            "arrival": 757,
+            "start": 757,
+            "end": 787,
+            "driveMinutes": 0
+          },
+          {
+            "id": "job-0-7",
+            "date": "2026-10-19",
+            "address": "Public coordinate C (fictional job)",
+            "longitude": "13.4132",
+            "latitude": "52.5219",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Labe53b50ad7b68473a39",
+            "row": 7,
+            "arrival": 787,
+            "start": 787,
+            "end": 817,
+            "driveMinutes": 0
+          },
+          {
+            "id": "job-0-2",
+            "date": "2026-10-19",
+            "address": "Public coordinate C (fictional job)",
+            "longitude": "13.4132",
+            "latitude": "52.5219",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Labe53b50ad7b68473a39",
+            "row": 2,
+            "arrival": 817,
+            "start": 817,
+            "end": 847,
+            "driveMinutes": 0
+          },
+          {
+            "id": "job-0-14",
+            "date": "2026-10-19",
+            "address": "Public coordinate E (fictional job)",
+            "longitude": "13.3762",
+            "latitude": "52.5186",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Ld7e4ceea6e9dd754d525",
+            "row": 14,
+            "arrival": 866,
+            "start": 866,
+            "end": 896,
+            "driveMinutes": 19
+          },
+          {
+            "id": "job-0-9",
+            "date": "2026-10-19",
+            "address": "Public coordinate E (fictional job)",
+            "longitude": "13.3762",
+            "latitude": "52.5186",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "specialist"
+            ],
+            "location": "Ld7e4ceea6e9dd754d525",
+            "row": 9,
+            "arrival": 896,
+            "start": 896,
+            "end": 926,
+            "driveMinutes": 0
+          },
+          {
+            "id": "job-0-4",
+            "date": "2026-10-19",
+            "address": "Public coordinate E (fictional job)",
+            "longitude": "13.3762",
+            "latitude": "52.5186",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Ld7e4ceea6e9dd754d525",
+            "row": 4,
+            "arrival": 926,
+            "start": 926,
+            "end": 956,
+            "driveMinutes": 0
+          },
+          {
+            "id": "job-0-0",
+            "date": "2026-10-19",
+            "address": "Public coordinate A (fictional job)",
+            "longitude": "13.3777",
+            "latitude": "52.5163",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "specialist"
+            ],
+            "location": "Le01a24d6b0c253ab091d",
+            "row": 0,
+            "arrival": 957,
+            "start": 957,
+            "end": 987,
+            "driveMinutes": 1
+          }
+        ],
+        "driveMinutes": 59,
+        "returnMinutes": 2,
+        "finish": 989
+      },
+      {
+        "crew": {
+          "id": "crew-2",
+          "date": "2026-10-19",
+          "address": "Public coordinate A (fictional crew)",
+          "longitude": "13.3777",
+          "latitude": "52.5163",
+          "start": 480,
+          "end": 1020,
+          "skills": [
+            "general"
+          ],
+          "location": "Le01a24d6b0c253ab091d",
+          "endLocation": "Le01a24d6b0c253ab091d"
+        },
+        "jobs": [
+          {
+            "id": "job-0-15",
+            "date": "2026-10-19",
+            "address": "Public coordinate A (fictional job)",
+            "longitude": "13.3777",
+            "latitude": "52.5163",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Le01a24d6b0c253ab091d",
+            "row": 15
+          },
+          {
+            "id": "job-0-5",
+            "date": "2026-10-19",
+            "address": "Public coordinate A (fictional job)",
+            "longitude": "13.3777",
+            "latitude": "52.5163",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Le01a24d6b0c253ab091d",
+            "row": 5
+          }
+        ],
+        "stops": [
+          {
+            "id": "job-0-15",
+            "date": "2026-10-19",
+            "address": "Public coordinate A (fictional job)",
+            "longitude": "13.3777",
+            "latitude": "52.5163",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Le01a24d6b0c253ab091d",
+            "row": 15,
+            "arrival": 480,
+            "start": 480,
+            "end": 510,
+            "driveMinutes": 0
+          },
+          {
+            "id": "job-0-5",
+            "date": "2026-10-19",
+            "address": "Public coordinate A (fictional job)",
+            "longitude": "13.3777",
+            "latitude": "52.5163",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Le01a24d6b0c253ab091d",
+            "row": 5,
+            "arrival": 510,
+            "start": 510,
+            "end": 540,
+            "driveMinutes": 0
+          }
+        ],
+        "driveMinutes": 0,
+        "returnMinutes": 0,
+        "finish": 540
+      },
+      {
+        "crew": {
+          "id": "crew-3",
+          "date": "2026-10-19",
+          "address": "Public coordinate A (fictional crew)",
+          "longitude": "13.3777",
+          "latitude": "52.5163",
+          "start": 480,
+          "end": 1020,
+          "skills": [
+            "general"
+          ],
+          "location": "Le01a24d6b0c253ab091d",
+          "endLocation": "Le01a24d6b0c253ab091d"
+        },
+        "jobs": [
+          {
+            "id": "job-0-10",
+            "date": "2026-10-19",
+            "address": "Public coordinate A (fictional job)",
+            "longitude": "13.3777",
+            "latitude": "52.5163",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Le01a24d6b0c253ab091d",
+            "row": 10
+          }
+        ],
+        "stops": [
+          {
+            "id": "job-0-10",
+            "date": "2026-10-19",
+            "address": "Public coordinate A (fictional job)",
+            "longitude": "13.3777",
+            "latitude": "52.5163",
+            "duration": 30,
+            "windowStart": 480,
+            "windowEnd": 1020,
+            "skills": [
+              "general"
+            ],
+            "location": "Le01a24d6b0c253ab091d",
+            "row": 10,
+            "arrival": 480,
+            "start": 480,
+            "end": 510,
+            "driveMinutes": 0
+          }
+        ],
+        "driveMinutes": 0,
+        "returnMinutes": 0,
+        "finish": 510
+      }
+    ],
+    "unassigned": [],
+    "assignedRows": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "driveMinutes": 59,
+    "routing": {
+      "kind": "road",
+      "provider": "Geoapify Route Matrix / OpenStreetMap",
+      "traffic": "approximated (not live traffic)",
+      "retrievedAt": "2026-10-16T07:34:25.526Z",
+      "units": "minutes; each leg rounded up",
+      "attribution": "Powered by [Geoapify](https://www.geoapify.com/); © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright)"
+    },
+    "minimumGapMinutes": 30,
+    "baselineDriveMinutes": 236,
+    "comparison": "Same-job input-order baseline: 236.0 min; planned: 59.0 min; saving 177.0 min.",
+    "gaps": [
+      {
+        "id": "2026-10-19/crew-1/15",
+        "crewId": "crew-1",
+        "date": "2026-10-19",
+        "index": 15,
+        "start": 987,
+        "end": 1020,
+        "directDriveMinutes": 2,
+        "availableMinutes": 31,
+        "from": "Le01a24d6b0c253ab091d",
+        "to": "L77a4c998fd84d9fa8c86",
+        "area": "Between Public coordinate A (fictional customer) and Adlon Kempinski, Unter den Linden 77, 10117 Berlin, Germany",
+        "suggestions": [
+          {
+            "customerId": "customer-10",
+            "name": "Example Customer 10",
+            "start": 987,
+            "end": 1012,
+            "extraDriveMinutes": 0,
+            "reason": "Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30",
+            "confidence": "high",
+            "overdueDays": 50,
+            "duplicateCount": 1,
+            "draft": "Hello Example Customer 10, we have an opening on 2026-10-19 at 16:27 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment."
+          },
+          {
+            "customerId": "customer-100",
+            "name": "Example Customer 100",
+            "start": 987,
+            "end": 1012,
+            "extraDriveMinutes": 0,
+            "reason": "Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30",
+            "confidence": "high",
+            "overdueDays": 50,
+            "duplicateCount": 1,
+            "draft": "Hello Example Customer 100, we have an opening on 2026-10-19 at 16:27 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment."
+          },
+          {
+            "customerId": "customer-115",
+            "name": "Example Customer 115",
+            "start": 987,
+            "end": 1012,
+            "extraDriveMinutes": 0,
+            "reason": "Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30",
+            "confidence": "high",
+            "overdueDays": 50,
+            "duplicateCount": 1,
+            "draft": "Hello Example Customer 115, we have an opening on 2026-10-19 at 16:27 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment."
+          },
+          {
+            "customerId": "customer-120",
+            "name": "Example Customer 120",
+            "start": 987,
+            "end": 1012,
+            "extraDriveMinutes": 0,
+            "reason": "Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30",
+            "confidence": "high",
+            "overdueDays": 50,
+            "duplicateCount": 1,
+            "draft": "Hello Example Customer 120, we have an opening on 2026-10-19 at 16:27 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment."
+          },
+          {
+            "customerId": "customer-125",
+            "name": "Example Customer 125",
+            "start": 987,
+            "end": 1012,
+            "extraDriveMinutes": 0,
+            "reason": "Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30",
+            "confidence": "high",
+            "overdueDays": 50,
+            "duplicateCount": 1,
+            "draft": "Hello Example Customer 125, we have an opening on 2026-10-19 at 16:27 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment."
+          }
+        ]
+      },
+      {
+        "id": "2026-10-19/crew-2/2",
+        "crewId": "crew-2",
+        "date": "2026-10-19",
+        "index": 2,
+        "start": 540,
+        "end": 1020,
+        "directDriveMinutes": 0,
+        "availableMinutes": 480,
+        "from": "Le01a24d6b0c253ab091d",
+        "to": "Le01a24d6b0c253ab091d",
+        "area": "Between Public coordinate A (fictional customer) and Public coordinate A (fictional customer)",
+        "suggestions": [
+          {
+            "customerId": "customer-10",
+            "name": "Example Customer 10",
+            "start": 540,
+            "end": 565,
+            "extraDriveMinutes": 0,
+            "reason": "Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30",
+            "confidence": "high",
+            "overdueDays": 50,
+            "duplicateCount": 1,
+            "draft": "Hello Example Customer 10, we have an opening on 2026-10-19 at 09:00 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment."
+          },
+          {
+            "customerId": "customer-100",
+            "name": "Example Customer 100",
+            "start": 540,
+            "end": 565,
+            "extraDriveMinutes": 0,
+            "reason": "Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30",
+            "confidence": "high",
+            "overdueDays": 50,
+            "duplicateCount": 1,
+            "draft": "Hello Example Customer 100, we have an opening on 2026-10-19 at 09:00 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment."
+          },
+          {
+            "customerId": "customer-115",
+            "name": "Example Customer 115",
+            "start": 540,
+            "end": 565,
+            "extraDriveMinutes": 0,
+            "reason": "Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30",
+            "confidence": "high",
+            "overdueDays": 50,
+            "duplicateCount": 1,
+            "draft": "Hello Example Customer 115, we have an opening on 2026-10-19 at 09:00 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment."
+          },
+          {
+            "customerId": "customer-120",
+            "name": "Example Customer 120",
+            "start": 540,
+            "end": 565,
+            "extraDriveMinutes": 0,
+            "reason": "Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30",
+            "confidence": "high",
+            "overdueDays": 50,
+            "duplicateCount": 1,
+            "draft": "Hello Example Customer 120, we have an opening on 2026-10-19 at 09:00 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment."
+          },
+          {
+            "customerId": "customer-125",
+            "name": "Example Customer 125",
+            "start": 540,
+            "end": 565,
+            "extraDriveMinutes": 0,
+            "reason": "Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30",
+            "confidence": "high",
+            "overdueDays": 50,
+            "duplicateCount": 1,
+            "draft": "Hello Example Customer 125, we have an opening on 2026-10-19 at 09:00 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment."
+          }
+        ]
+      },
+      {
+        "id": "2026-10-19/crew-3/1",
+        "crewId": "crew-3",
+        "date": "2026-10-19",
+        "index": 1,
+        "start": 510,
+        "end": 1020,
+        "directDriveMinutes": 0,
+        "availableMinutes": 510,
+        "from": "Le01a24d6b0c253ab091d",
+        "to": "Le01a24d6b0c253ab091d",
+        "area": "Between Public coordinate A (fictional customer) and Public coordinate A (fictional customer)",
+        "suggestions": [
+          {
+            "customerId": "customer-10",
+            "name": "Example Customer 10",
+            "start": 510,
+            "end": 535,
+            "extraDriveMinutes": 0,
+            "reason": "Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30",
+            "confidence": "high",
+            "overdueDays": 50,
+            "duplicateCount": 1,
+            "draft": "Hello Example Customer 10, we have an opening on 2026-10-19 at 08:30 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment."
+          },
+          {
+            "customerId": "customer-100",
+            "name": "Example Customer 100",
+            "start": 510,
+            "end": 535,
+            "extraDriveMinutes": 0,
+            "reason": "Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30",
+            "confidence": "high",
+            "overdueDays": 50,
+            "duplicateCount": 1,
+            "draft": "Hello Example Customer 100, we have an opening on 2026-10-19 at 08:30 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment."
+          },
+          {
+            "customerId": "customer-115",
+            "name": "Example Customer 115",
+            "start": 510,
+            "end": 535,
+            "extraDriveMinutes": 0,
+            "reason": "Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30",
+            "confidence": "high",
+            "overdueDays": 50,
+            "duplicateCount": 1,
+            "draft": "Hello Example Customer 115, we have an opening on 2026-10-19 at 08:30 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment."
+          },
+          {
+            "customerId": "customer-120",
+            "name": "Example Customer 120",
+            "start": 510,
+            "end": 535,
+            "extraDriveMinutes": 0,
+            "reason": "Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30",
+            "confidence": "high",
+            "overdueDays": 50,
+            "duplicateCount": 1,
+            "draft": "Hello Example Customer 120, we have an opening on 2026-10-19 at 08:30 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment."
+          },
+          {
+            "customerId": "customer-125",
+            "name": "Example Customer 125",
+            "start": 510,
+            "end": 535,
+            "extraDriveMinutes": 0,
+            "reason": "Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30",
+            "confidence": "high",
+            "overdueDays": 50,
+            "duplicateCount": 1,
+            "draft": "Hello Example Customer 125, we have an opening on 2026-10-19 at 08:30 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment."
+          }
+        ]
+      }
+    ],
+    "excludedCustomers": [
+      {
+        "ids": [
+          "customer-0"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-11"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-13"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-22"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-26"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-33"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-39"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-44"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-52"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-55"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-65"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-66"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-77"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-78"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-88"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-91"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-99"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-104"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-110"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-117"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-121"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-130"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-132"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-143"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-154"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-156"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-165"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-169"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-176"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-182"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-187"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-195"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-198"
+        ],
+        "reason": "Opt-out or do-not-contact in identity group"
+      },
+      {
+        "ids": [
+          "customer-7"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-14"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-21"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-28"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-35"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-42"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-49"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-56"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-63"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-70"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-84"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-98"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-105"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-112"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-119"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-126"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-133"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-140"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-147"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-161"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-168"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-175"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-189"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      },
+      {
+        "ids": [
+          "customer-196"
+        ],
+        "reason": "No valid due evidence during the planning period"
+      }
+    ],
+    "notes": [
+      "Suggestions are alternatives. Choose one per gap and rerun after accepting; a customer may appear in several alternative gaps.",
+      "No customer messages are sent. No default service interval is invented.",
+      "Travel times are estimates. All times use the buyer-selected local timezone; overnight shifts must be split into date rows.",
+      "Unassigned heuristic results are not proofs that no feasible schedule exists.",
+      "Planning period: 2026-10-19 through 2026-10-19; local timezone: Europe/Berlin.",
+      "Backfill search targets the 12 nearest eligible customers per gap for road checks; already-known road pairs can cover additional customers. It does not guarantee exhaustive coverage or the globally best backfill.",
+      "Addresses/coordinates are processed by Geoapify. Customer names, contact details and service history are not sent to the map provider."
+    ]
+  },
+  "report": "# Field service schedule\n\nRouting: **Geoapify Route Matrix / OpenStreetMap** (road).\nRoad times are provider estimates, not a live traffic guarantee.\nRetrieved: 2026-10-16T07:34:25.526Z. Traffic model: approximated (not live traffic).\nPowered by [Geoapify](https://www.geoapify.com/); © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright)\n\nSame-job input-order baseline: 236.0 min; planned: 59.0 min; saving 177.0 min.\n\nAssigned 18; unassigned 0. Total drive time including return legs: 59.0 minutes.\n\n## 2026-10-19 — crew-1\n\n| Job | Location | Start | End | Drive min |\n|---|---|---:|---:|---:|\n| job-0-13 | Public coordinate D (fictional job) | 08:06 | 08:36 | 6.0 |\n| job-0-8 | Public coordinate D (fictional job) | 08:36 | 09:06 | 0.0 |\n| job-0-3 | Public coordinate D (fictional job) | 09:06 | 09:36 | 0.0 |\n| job-0-16 | Public coordinate B (fictional job) | 09:45 | 10:15 | 9.0 |\n| job-0-11 | Public coordinate B (fictional job) | 10:15 | 10:45 | 0.0 |\n| job-0-6 | Public coordinate B (fictional job) | 10:45 | 11:15 | 0.0 |\n| job-0-1 | Public coordinate B (fictional job) | 11:15 | 11:45 | 0.0 |\n| job-0-17 | Public coordinate C (fictional job) | 12:07 | 12:37 | 22.0 |\n| job-0-12 | Public coordinate C (fictional job) | 12:37 | 13:07 | 0.0 |\n| job-0-7 | Public coordinate C (fictional job) | 13:07 | 13:37 | 0.0 |\n| job-0-2 | Public coordinate C (fictional job) | 13:37 | 14:07 | 0.0 |\n| job-0-14 | Public coordinate E (fictional job) | 14:26 | 14:56 | 19.0 |\n| job-0-9 | Public coordinate E (fictional job) | 14:56 | 15:26 | 0.0 |\n| job-0-4 | Public coordinate E (fictional job) | 15:26 | 15:56 | 0.0 |\n| job-0-0 | Public coordinate A (fictional job) | 15:57 | 16:27 | 1.0 |\n\nReturn drive 2.0 min; route finishes 16:29.\n\n## 2026-10-19 — crew-2\n\n| Job | Location | Start | End | Drive min |\n|---|---|---:|---:|---:|\n| job-0-15 | Public coordinate A (fictional job) | 08:00 | 08:30 | 0.0 |\n| job-0-5 | Public coordinate A (fictional job) | 08:30 | 09:00 | 0.0 |\n\nReturn drive 0.0 min; route finishes 09:00.\n\n## 2026-10-19 — crew-3\n\n| Job | Location | Start | End | Drive min |\n|---|---|---:|---:|---:|\n| job-0-10 | Public coordinate A (fictional job) | 08:00 | 08:30 | 0.0 |\n\nReturn drive 0.0 min; route finishes 08:30.\n\n## Unassigned input rows\n\nNone.\n\n## Gaps and optional backfill\n\nMinimum useful gap: 30 minutes after direct travel. Each suggestion fits individually; do not book all alternatives.\n\n### 2026-10-19 / crew-1 / 16:27–17:00\nArea: Between Public coordinate A (fictional customer) and Adlon Kempinski, Unter den Linden 77, 10117 Berlin, Germany. Available service time after direct travel: 31.0 minutes.\n\n- **customer-10**, 16:27–16:52; extra drive 0.0 min; high confidence. Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30\n  Draft (not sent): Hello Example Customer 10, we have an opening on 2026-10-19 at 16:27 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment.\n\n- **customer-100**, 16:27–16:52; extra drive 0.0 min; high confidence. Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30\n  Draft (not sent): Hello Example Customer 100, we have an opening on 2026-10-19 at 16:27 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment.\n\n- **customer-115**, 16:27–16:52; extra drive 0.0 min; high confidence. Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30\n  Draft (not sent): Hello Example Customer 115, we have an opening on 2026-10-19 at 16:27 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment.\n\n- **customer-120**, 16:27–16:52; extra drive 0.0 min; high confidence. Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30\n  Draft (not sent): Hello Example Customer 120, we have an opening on 2026-10-19 at 16:27 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment.\n\n- **customer-125**, 16:27–16:52; extra drive 0.0 min; high confidence. Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30\n  Draft (not sent): Hello Example Customer 125, we have an opening on 2026-10-19 at 16:27 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment.\n\n### 2026-10-19 / crew-2 / 09:00–17:00\nArea: Between Public coordinate A (fictional customer) and Public coordinate A (fictional customer). Available service time after direct travel: 480.0 minutes.\n\n- **customer-10**, 09:00–09:25; extra drive 0.0 min; high confidence. Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30\n  Draft (not sent): Hello Example Customer 10, we have an opening on 2026-10-19 at 09:00 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment.\n\n- **customer-100**, 09:00–09:25; extra drive 0.0 min; high confidence. Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30\n  Draft (not sent): Hello Example Customer 100, we have an opening on 2026-10-19 at 09:00 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment.\n\n- **customer-115**, 09:00–09:25; extra drive 0.0 min; high confidence. Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30\n  Draft (not sent): Hello Example Customer 115, we have an opening on 2026-10-19 at 09:00 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment.\n\n- **customer-120**, 09:00–09:25; extra drive 0.0 min; high confidence. Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30\n  Draft (not sent): Hello Example Customer 120, we have an opening on 2026-10-19 at 09:00 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment.\n\n- **customer-125**, 09:00–09:25; extra drive 0.0 min; high confidence. Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30\n  Draft (not sent): Hello Example Customer 125, we have an opening on 2026-10-19 at 09:00 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment.\n\n### 2026-10-19 / crew-3 / 08:30–17:00\nArea: Between Public coordinate A (fictional customer) and Public coordinate A (fictional customer). Available service time after direct travel: 510.0 minutes.\n\n- **customer-10**, 08:30–08:55; extra drive 0.0 min; high confidence. Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30\n  Draft (not sent): Hello Example Customer 10, we have an opening on 2026-10-19 at 08:30 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment.\n\n- **customer-100**, 08:30–08:55; extra drive 0.0 min; high confidence. Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30\n  Draft (not sent): Hello Example Customer 100, we have an opening on 2026-10-19 at 08:30 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment.\n\n- **customer-115**, 08:30–08:55; extra drive 0.0 min; high confidence. Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30\n  Draft (not sent): Hello Example Customer 115, we have an opening on 2026-10-19 at 08:30 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment.\n\n- **customer-120**, 08:30–08:55; extra drive 0.0 min; high confidence. Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30\n  Draft (not sent): Hello Example Customer 120, we have an opening on 2026-10-19 at 08:30 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment.\n\n- **customer-125**, 08:30–08:55; extra drive 0.0 min; high confidence. Last service 2026-07-01; buyer-provided interval 60 days; due 2026-08-30\n  Draft (not sent): Hello Example Customer 125, we have an opening on 2026-10-19 at 08:30 for scheduled maintenance. Would this work for you? Please reply to confirm. This is an offer, not a confirmed appointment.\n\n## Data requiring review\n\n- customer-0: Opt-out or do-not-contact in identity group\n- customer-11: Opt-out or do-not-contact in identity group\n- customer-13: Opt-out or do-not-contact in identity group\n- customer-22: Opt-out or do-not-contact in identity group\n- customer-26: Opt-out or do-not-contact in identity group\n- customer-33: Opt-out or do-not-contact in identity group\n- customer-39: Opt-out or do-not-contact in identity group\n- customer-44: Opt-out or do-not-contact in identity group\n- customer-52: Opt-out or do-not-contact in identity group\n- customer-55: Opt-out or do-not-contact in identity group\n- customer-65: Opt-out or do-not-contact in identity group\n- customer-66: Opt-out or do-not-contact in identity group\n- customer-77: Opt-out or do-not-contact in identity group\n- customer-78: Opt-out or do-not-contact in identity group\n- customer-88: Opt-out or do-not-contact in identity group\n- customer-91: Opt-out or do-not-contact in identity group\n- customer-99: Opt-out or do-not-contact in identity group\n- customer-104: Opt-out or do-not-contact in identity group\n- customer-110: Opt-out or do-not-contact in identity group\n- customer-117: Opt-out or do-not-contact in identity group\n- customer-121: Opt-out or do-not-contact in identity group\n- customer-130: Opt-out or do-not-contact in identity group\n- customer-132: Opt-out or do-not-contact in identity group\n- customer-143: Opt-out or do-not-contact in identity group\n- customer-154: Opt-out or do-not-contact in identity group\n- customer-156: Opt-out or do-not-contact in identity group\n- customer-165: Opt-out or do-not-contact in identity group\n- customer-169: Opt-out or do-not-contact in identity group\n- customer-176: Opt-out or do-not-contact in identity group\n- customer-182: Opt-out or do-not-contact in identity group\n- customer-187: Opt-out or do-not-contact in identity group\n- customer-195: Opt-out or do-not-contact in identity group\n- customer-198: Opt-out or do-not-contact in identity group\n- customer-7: No valid due evidence during the planning period\n- customer-14: No valid due evidence during the planning period\n- customer-21: No valid due evidence during the planning period\n- customer-28: No valid due evidence during the planning period\n- customer-35: No valid due evidence during the planning period\n- customer-42: No valid due evidence during the planning period\n- customer-49: No valid due evidence during the planning period\n- customer-56: No valid due evidence during the planning period\n- customer-63: No valid due evidence during the planning period\n- customer-70: No valid due evidence during the planning period\n- customer-84: No valid due evidence during the planning period\n- customer-98: No valid due evidence during the planning period\n- customer-105: No valid due evidence during the planning period\n- customer-112: No valid due evidence during the planning period\n- customer-119: No valid due evidence during the planning period\n- customer-126: No valid due evidence during the planning period\n- customer-133: No valid due evidence during the planning period\n- customer-140: No valid due evidence during the planning period\n- customer-147: No valid due evidence during the planning period\n- customer-161: No valid due evidence during the planning period\n- customer-168: No valid due evidence during the planning period\n- customer-175: No valid due evidence during the planning period\n- customer-189: No valid due evidence during the planning period\n- customer-196: No valid due evidence during the planning period\n\n## Planning notes\n\n- Suggestions are alternatives. Choose one per gap and rerun after accepting; a customer may appear in several alternative gaps.\n- No customer messages are sent. No default service interval is invented.\n- Travel times are estimates. All times use the buyer-selected local timezone; overnight shifts must be split into date rows.\n- Unassigned heuristic results are not proofs that no feasible schedule exists.\n- Planning period: 2026-10-19 through 2026-10-19; local timezone: Europe/Berlin.\n- Backfill search targets the 12 nearest eligible customers per gap for road checks; already-known road pairs can cover additional customers. It does not guarantee exhaustive coverage or the globally best backfill.\n- Addresses/coordinates are processed by Geoapify. Customer names, contact details and service history are not sent to the map provider.\n",
+  "scheduleCsv": "\"date\",\"crew_id\",\"job_id\",\"location\",\"start_minute\",\"end_minute\",\"drive_minutes\"\r\n\"2026-10-19\",\"crew-1\",\"job-0-13\",\"L6d7dbcdd8fae81687c79\",\"486\",\"516\",\"6\"\r\n\"2026-10-19\",\"crew-1\",\"job-0-8\",\"L6d7dbcdd8fae81687c79\",\"516\",\"546\",\"0\"\r\n\"2026-10-19\",\"crew-1\",\"job-0-3\",\"L6d7dbcdd8fae81687c79\",\"546\",\"576\",\"0\"\r\n\"2026-10-19\",\"crew-1\",\"job-0-16\",\"Lacd0071b8768af1373ca\",\"585\",\"615\",\"9\"\r\n\"2026-10-19\",\"crew-1\",\"job-0-11\",\"Lacd0071b8768af1373ca\",\"615\",\"645\",\"0\"\r\n\"2026-10-19\",\"crew-1\",\"job-0-6\",\"Lacd0071b8768af1373ca\",\"645\",\"675\",\"0\"\r\n\"2026-10-19\",\"crew-1\",\"job-0-1\",\"Lacd0071b8768af1373ca\",\"675\",\"705\",\"0\"\r\n\"2026-10-19\",\"crew-1\",\"job-0-17\",\"Labe53b50ad7b68473a39\",\"727\",\"757\",\"22\"\r\n\"2026-10-19\",\"crew-1\",\"job-0-12\",\"Labe53b50ad7b68473a39\",\"757\",\"787\",\"0\"\r\n\"2026-10-19\",\"crew-1\",\"job-0-7\",\"Labe53b50ad7b68473a39\",\"787\",\"817\",\"0\"\r\n\"2026-10-19\",\"crew-1\",\"job-0-2\",\"Labe53b50ad7b68473a39\",\"817\",\"847\",\"0\"\r\n\"2026-10-19\",\"crew-1\",\"job-0-14\",\"Ld7e4ceea6e9dd754d525\",\"866\",\"896\",\"19\"\r\n\"2026-10-19\",\"crew-1\",\"job-0-9\",\"Ld7e4ceea6e9dd754d525\",\"896\",\"926\",\"0\"\r\n\"2026-10-19\",\"crew-1\",\"job-0-4\",\"Ld7e4ceea6e9dd754d525\",\"926\",\"956\",\"0\"\r\n\"2026-10-19\",\"crew-1\",\"job-0-0\",\"Le01a24d6b0c253ab091d\",\"957\",\"987\",\"1\"\r\n\"2026-10-19\",\"crew-2\",\"job-0-15\",\"Le01a24d6b0c253ab091d\",\"480\",\"510\",\"0\"\r\n\"2026-10-19\",\"crew-2\",\"job-0-5\",\"Le01a24d6b0c253ab091d\",\"510\",\"540\",\"0\"\r\n\"2026-10-19\",\"crew-3\",\"job-0-10\",\"Le01a24d6b0c253ab091d\",\"480\",\"510\",\"0\"\r\n",
+  "review": [
+    {
+      "kind": "customers",
+      "row": 7,
+      "id": "customer-7",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 12,
+      "id": "customer-14",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 19,
+      "id": "customer-21",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 24,
+      "id": "customer-28",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 30,
+      "id": "customer-35",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 36,
+      "id": "customer-42",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 42,
+      "id": "customer-49",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 47,
+      "id": "customer-56",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 54,
+      "id": "customer-63",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 59,
+      "id": "customer-70",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 71,
+      "id": "customer-84",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 83,
+      "id": "customer-98",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 88,
+      "id": "customer-105",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 94,
+      "id": "customer-112",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 100,
+      "id": "customer-119",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 106,
+      "id": "customer-126",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 111,
+      "id": "customer-133",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 118,
+      "id": "customer-140",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 124,
+      "id": "customer-147",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 136,
+      "id": "customer-161",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 142,
+      "id": "customer-168",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 148,
+      "id": "customer-175",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 159,
+      "id": "customer-189",
+      "reason": "No valid due evidence during the planning period"
+    },
+    {
+      "kind": "customers",
+      "row": 165,
+      "id": "customer-196",
+      "reason": "No valid due evidence during the planning period"
+    }
+  ],
+  "shortlists": [
+    {
+      "gapId": "2026-10-19/crew-1/15",
+      "eligible": 143,
+      "roadCheckedCandidates": [
+        "customer-10",
+        "customer-100",
+        "customer-115",
+        "customer-120",
+        "customer-125",
+        "customer-135",
+        "customer-145",
+        "customer-15",
+        "customer-150",
+        "customer-155",
+        "customer-160",
+        "customer-170"
+      ]
+    },
+    {
+      "gapId": "2026-10-19/crew-2/2",
+      "eligible": 143,
+      "roadCheckedCandidates": [
+        "customer-10",
+        "customer-100",
+        "customer-115",
+        "customer-120",
+        "customer-125",
+        "customer-135",
+        "customer-145",
+        "customer-15",
+        "customer-150",
+        "customer-155",
+        "customer-160",
+        "customer-170"
+      ]
+    },
+    {
+      "gapId": "2026-10-19/crew-3/1",
+      "eligible": 143,
+      "roadCheckedCandidates": [
+        "customer-10",
+        "customer-100",
+        "customer-115",
+        "customer-120",
+        "customer-125",
+        "customer-135",
+        "customer-145",
+        "customer-15",
+        "customer-150",
+        "customer-155",
+        "customer-160",
+        "customer-170"
+      ]
+    }
+  ],
+  "config": {
+    "startDate": "2026-10-19",
+    "endDate": "2026-10-19",
+    "timezone": "Europe/Berlin",
+    "countryCode": "de",
+    "mapProcessingConsent": true,
+    "minimumGapMinutes": 30
+  },
+  "counts": {
+    "jobs": 18,
+    "crewDays": 3,
+    "customers": 200
+  }
+}

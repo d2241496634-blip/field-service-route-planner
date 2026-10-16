@@ -1,5 +1,7 @@
 import {mkdir,readFile,writeFile,open} from 'node:fs/promises';
-import {fetchRoadMatrix} from './geoapify.mjs';
+import {fileURLToPath} from 'node:url';
+import {JsonStore,QuotaLedger,exclusiveLease} from './storage.mjs';
+import {MapsService} from './maps-service.mjs';
 import {fixture} from './fixtures.mjs';
 import {plan,markdownReport} from './planner.mjs';
 import {scheduleCsv} from './csv.mjs';
@@ -21,10 +23,12 @@ try {
     try {const old=JSON.parse(await readFile(limitPath,'utf8'));if(old.date===today)quota=old;} catch(e) {if(e.code!=='ENOENT')throw e;}
     // This proof command permits ONE request per UTC day, even after a timeout.
     // Five-by-five local-city matrix: 25 baseline credits. Reserve 500 conservatively.
-    // No other commands spend API credits in this prototype. Production needs a shared ledger.
+    // Also use the service-wide rolling ledger; no command-specific bypass.
     if(quota.attempts>=1)throw new Error('Daily road-demo request cap reached; no automatic retry or paid upgrade');
     await writeFile(limitPath,JSON.stringify({date:today,attempts:1,reservedCredits:500})+'\n');
-    saved=await fetchRoadMatrix(points,{apiKey:process.env.GEOAPIFY_API_KEY});
+    const shared=fileURLToPath(new URL('./state/service/',import.meta.url)),release=await exclusiveLease(shared);
+    try{const maps=new MapsService({apiKey:process.env.GEOAPIFY_API_KEY,quota:new QuotaLedger(new JsonStore(shared)),cache:new JsonStore(fileURLToPath(new URL('./state/demo-cache/',import.meta.url)))});saved=await maps.matrix(points);}
+    finally{await release();}
     await writeFile(resultPath,JSON.stringify(saved,null,2)+'\n');
   }
   const ids=Object.keys(points),input=fixture();

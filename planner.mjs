@@ -5,6 +5,7 @@ const DAY = 86400000;
 const isId = x => typeof x === 'string' && x.trim().length > 0;
 const validMinute = x => Number.isInteger(x) && x >= 0 && x <= 1440;
 const bool = x => x === true || ['true', 'yes', '1', 'y'].includes(String(x).trim().toLowerCase());
+const unknownFlag = x => x!==undefined && x!==null && x!=='' && ![true,false,'true','false','yes','no','1','0','y','n'].includes(typeof x==='string'?x.trim().toLowerCase():x);
 const clean = x => String(x ?? '').trim().toLowerCase().replace(/\s+/g, ' ');
 const allSkills = (crew, job) => (job.skills ?? []).every(s => crew.skills.includes(s));
 export function isoDay(s) {
@@ -120,6 +121,7 @@ export function normalizeCustomers(customers) {
   for (const rows of groups.values()) {
     const ids = rows.map(c=>c.id ?? '(missing ID)');
     if (rows.some(c=>bool(c.doNotContact) || bool(c.optOut))) {excluded.push({ids,reason:'Opt-out or do-not-contact in identity group'}); continue;}
+    if (rows.some(c=>unknownFlag(c.doNotContact) || unknownFlag(c.optOut) || c.contactFlagsUnclear)) {excluded.push({ids,reason:'Unclear contact-preference flag; buyer review required'}); continue;}
     const canonical = rows[0];
     // No silent merge of dates, intervals, consent or addresses.
     const same = rows.every(c=> ['location','lastServiceDate','intervalDays','dueDate','openQuote','quoteDate','duration','windowStart','windowEnd','service'].every(k => String(c[k] ?? '')===String(canonical[k] ?? '')) && JSON.stringify(c.skills ?? [])===JSON.stringify(canonical.skills ?? []));
@@ -211,7 +213,7 @@ export function plan(input) {
     notes:['Suggestions are alternatives. Choose one per gap and rerun after accepting; a customer may appear in several alternative gaps.', 'No customer messages are sent. No default service interval is invented.', 'Travel times are estimates. All times use the buyer-selected local timezone; overnight shifts must be split into date rows.', 'Unassigned heuristic results are not proofs that no feasible schedule exists.']};
 }
 export const formatTime = m => `${String(Math.floor(Math.ceil(m)/60)).padStart(2,'0')}:${String(Math.ceil(m)%60).padStart(2,'0')}`;
-const cell=x=>String(x??'').replaceAll('|','\\|').replaceAll('\n',' ');
+const cell=x=>String(x??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('[','\\[').replaceAll(']','\\]').replaceAll('|','\\|').replace(/[\r\n]/g,' ');
 export function markdownReport(p) {
   const lines=['# Field service schedule', '', `Routing: **${cell(p.routing.provider)}** (${p.routing.kind}).`,
     p.routing.kind==='synthetic'?'**DEMO ONLY: synthetic travel times. This is not a road-routing or live-agent acceptance result.**':'Road times are provider estimates, not a live traffic guarantee.',
@@ -219,7 +221,7 @@ export function markdownReport(p) {
     '',p.comparison,'',`Assigned ${p.assignedRows.length}; unassigned ${p.unassigned.length}. Total drive time including return legs: ${p.driveMinutes.toFixed(1)} minutes.`];
   for(const r of p.routes) {
     lines.push('',`## ${cell(r.crew.date)} — ${cell(r.crew.id)}`,'','| Job | Location | Start | End | Drive min |','|---|---|---:|---:|---:|');
-    for(const s of r.stops) lines.push(`| ${cell(s.id)} | ${cell(s.location)} | ${formatTime(s.start)} | ${formatTime(s.end)} | ${s.driveMinutes.toFixed(1)} |`);
+    for(const s of r.stops) lines.push(`| ${cell(s.id)} | ${cell(s.address || s.location)} | ${formatTime(s.start)} | ${formatTime(s.end)} | ${s.driveMinutes.toFixed(1)} |`);
     lines.push('',`Return drive ${r.returnMinutes.toFixed(1)} min; route finishes ${formatTime(r.finish)}.`);
   }
   lines.push('','## Unassigned input rows','');
